@@ -22,7 +22,6 @@ class GalleryCollectionViewController: UIViewController {
     fileprivate let carouselShowSegueIdentifier = "carouselShow"
     fileprivate let galleryCellIdentifier = "galleryCellIdentifier"
 
-    
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()

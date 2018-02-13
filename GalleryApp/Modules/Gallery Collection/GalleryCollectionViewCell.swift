@@ -22,6 +22,8 @@ class GalleryCollectionViewCell: UICollectionViewCell {
     }
     
     // MARK: - Methods
+    
+    /// This method sets the image in image view from remote url.
     func setUpImage() {
         let url = URL.init(string: imageUrl)
         imageView.sd_setImage(with: url, placeholderImage: placeHolderImage, options: [], completed: nil)
